@@ -1,65 +1,85 @@
-# api-code-validation-toolkit README
+# CommitIQ README
 
-This is the README for your extension "api-code-validation-toolkit". After writing up a brief description, we recommend including the following sections.
+CommitIQ is a VS Code extension designed to streamline API validation, environment variable tracking, and commit message linting. It enhances code quality, consistency, and adherence to best practices, making your development workflow more efficient.
 
-## Features
+## 🚀 Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **API Validation**
+  - Validate API responses against defined contracts.
+  - Receive instant feedback and error details within VS Code.
 
-## Requirements
+- **Environment Variable Tracker**
+  - Track and validate required environment variables.
+  - Identify missing or misconfigured variables.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Commit Message Linter**
+  - Lint commit messages based on the Conventional Commits standard.
+  - Highlight issues and offer auto-fix suggestions.
+  - Supports multiline messages and breaking changes.
 
-## Extension Settings
+- **WebView Panel**
+  - Interactive panel to trigger commands and view results.
+  - Real-time feedback with status updates and error messages.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## 📸 Screenshots
 
-For example:
+_Include screenshots here to showcase API validation, env tracking, and commit linting in action._
+
+## 📋 Requirements
+
+- Visual Studio Code (v1.60.0 or higher)
+- Internet connection for API validation
+
+## ⚙️ Extension Settings
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `commitiq.enable`: Enable/disable CommitIQ.
+- `commitiq.defaultCommitType`: Set the default commit type for auto-fixes (default: `chore`).
 
-## Known Issues
+## 🐞 Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- API validation may fail with unstable endpoints.
+- Complex environment setups might require manual validation.
 
-## Release Notes
+## 📖 Usage
 
-Users appreciate release notes as you update your extension.
+1. **API Validation**
+   - Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
+   - Run `CommitIQ: Validate API`.
+
+2. **Track Environment Variables**
+   - Run `CommitIQ: Track Env Variables`.
+
+3. **Lint Commit Messages**
+   - Run `CommitIQ: Lint Commit Message`.
+
+4. **Open WebView Panel**
+   - Run `CommitIQ: Show Panel` for an interactive UI.
+
+## 📦 Release Notes
 
 ### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+- Initial release with API validation, environment tracking, and commit linting.
 
 ### 1.1.0
+- Enhanced commit linter with auto-fix options.
+- Improved WebView panel with dynamic feedback.
 
-Added features X, Y, and Z.
+## 📚 Following Extension Guidelines
 
----
+This extension follows [VS Code Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines).
 
-## Following extension guidelines
+## 📖 Working with Markdown
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- Split editor: `Ctrl+\` or `Cmd+\`
+- Toggle preview: `Shift+Ctrl+V` or `Shift+Cmd+V`
+- Markdown snippets: `Ctrl+Space`
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## 💡 For More Information
 
-## Working with Markdown
+- [VS Code API Documentation](https://code.visualstudio.com/api)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+**Enjoy coding with CommitIQ! 🚀**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
