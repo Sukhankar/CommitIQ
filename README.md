@@ -1,3 +1,7 @@
+Download the extension on VScode
+
+https://marketplace.visualstudio.com/items?itemName=Sukhankar.commit-iq
+
 # CommitIQ README
 
 CommitIQ is a VS Code extension designed to streamline API validation, environment variable tracking, and commit message linting. It enhances code quality, consistency, and adherence to best practices, making your development workflow more efficient.
